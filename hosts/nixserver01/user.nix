@@ -11,6 +11,7 @@
   imports = [
     ../../nixos/configuration.nix
     ../../nixos/packages.nix
+    ./hardware-configuration.nix
   ];
   services.minecraft = {
     enable = true;

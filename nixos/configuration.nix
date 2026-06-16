@@ -12,7 +12,6 @@
 
 {
   imports = [
-    /etc/nixos/hardware-configuration.nix
     ./stylixconfig.nix
   ];
 
