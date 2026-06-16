@@ -7,7 +7,7 @@
   };
 
   outputs =
-    { nixpkgs, nixpkgs-unstable }:
+    { self, nixpkgs, nixpkgs-unstable }:
     let
       linux = "x86_64-linux";
       mkSystem =
