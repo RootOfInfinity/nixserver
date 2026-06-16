@@ -13,7 +13,7 @@
     ../../nixos/packages.nix
     ./hardware-configuration.nix
   ];
-  services.minecraft = {
+  services.minecraft-server = {
     enable = true;
     eula = true;
     package = pkgs-unstable.minecraft-server;
