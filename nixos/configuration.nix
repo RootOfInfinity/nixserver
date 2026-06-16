@@ -44,7 +44,6 @@
     };
   };
 
-  services.flatpak.enable = true;
 
   # -- DIRENV SETTINGS -- #
   programs.direnv.enable = true;
