@@ -12,7 +12,6 @@
 
 {
   imports = [
-    ./stylixconfig.nix
   ];
 
   # -- NIXOS SETTINGS -- #
