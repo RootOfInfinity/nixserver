@@ -17,7 +17,7 @@
 
     servers.celebrationserver = {
       enable = true;
-      package = pkgs-unstable.papermcServers.papermc-1_26_2;
+      package = pkgs-unstable.paperServers.paper;
       openFirewall = true;
 
       whitelist = {
