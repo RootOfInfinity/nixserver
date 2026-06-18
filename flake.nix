@@ -8,7 +8,7 @@
   };
 
   outputs =
-    { self, nixpkgs, nixpkgs-unstable }:
+    { self, nixpkgs, nixpkgs-unstable, ... }@inputs:
     let
       linux = "x86_64-linux";
       mkSystem =
@@ -20,8 +20,8 @@
               inherit system;
               config.allowUnfree = true;
             };
+            inherit inputs;
           };
-          networking.hostName = hostname;
           modules = [
             ./hosts/${hostname}/user.nix
           ];
