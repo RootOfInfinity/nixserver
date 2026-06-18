@@ -59,6 +59,7 @@
     acpi
     todo
     pmutils
+    git
 
     # docker stuff
     # docker_26
