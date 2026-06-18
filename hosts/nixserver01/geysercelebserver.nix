@@ -17,7 +17,7 @@
 
     servers.celebrationserver = {
       enable = true;
-      package = pkgs.paperServers.paper;
+      package = pkgs.paperServers.paper-1_26_2;
       openFirewall = true;
 
       whitelist = {
@@ -34,6 +34,10 @@
         online-mode = true;
         allow-flight = true;
       };
+
+      # symlinks = {
+      #   plugins = "./celebrationserver/plugins";
+      # };
 
     };
   };
