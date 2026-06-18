@@ -19,6 +19,7 @@
       enable = true;
       package = pkgs.paperServers.paper-26_1_2;
       openFirewall = true;
+      dataDir = "/var/lib/cool-servers";
 
       # whitelist = {
       #   BeefyBoy9009 = "a5892266-991e-47d4-9662-cd69a7426633";
