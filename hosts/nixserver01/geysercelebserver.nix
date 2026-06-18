@@ -37,7 +37,7 @@
       };
 
       symlinks = {
-        plugins = "./celebrationserver/plugins";
+        plugins = ./celebrationserver/plugins;
       };
 
     };
