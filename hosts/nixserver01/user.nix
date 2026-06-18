@@ -7,7 +7,6 @@
 }:
 
 {
-  networking.hostName = "nixserver01";
   imports = [
     ../../nixos/configuration.nix
     ../../nixos/packages.nix

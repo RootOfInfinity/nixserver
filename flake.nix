@@ -4,6 +4,7 @@
   inputs = {
     nixpkgs-unstable.url = "github:nixos/nixpkgs?ref=nixos-unstable";
     nixpkgs.url = "github:nixos/nixpkgs/nixos-26.05";
+    nix-minecraft.url = "github:Infinidoge/nix-minecraft";
   };
 
   outputs =
@@ -20,6 +21,7 @@
               config.allowUnfree = true;
             };
           };
+          networking.hostName = hostname;
           modules = [
             ./hosts/${hostname}/user.nix
           ];
