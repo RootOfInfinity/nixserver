@@ -20,16 +20,16 @@
       package = pkgs.paperServers.paper-1_26_2;
       openFirewall = true;
 
-      whitelist = {
-        BeefyBoy9009 = "a5892266-991e-47d4-9662-cd69a7426633";
-        urfavgirlriver = "3e4cf579-783b-4dea-ab4c-35e8930fecb1";
-      };
+      # whitelist = {
+      #   BeefyBoy9009 = "a5892266-991e-47d4-9662-cd69a7426633";
+      #   urfavgirlriver = "3e4cf579-783b-4dea-ab4c-35e8930fecb1";
+      # };
 
       serverProperties = {
         gamemode = "survival";
         difficulty = "medium";
         simulation-distance = 10;
-        white-list = true;
+        white-list = false;
         motd = "Celebration Youth Group Minecraft Server!";
         online-mode = true;
         allow-flight = true;
