@@ -36,9 +36,9 @@
         allow-flight = true;
       };
 
-      files = {
-        plugins = ./celebrationserver/plugins;
-      };
+      # files = {
+      #   plugins = ./celebrationserver/plugins;
+      # };
 
     };
   };
