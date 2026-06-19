@@ -36,7 +36,7 @@
         allow-flight = true;
       };
 
-      symlinks = {
+      files = {
         plugins = ./celebrationserver/plugins;
       };
 
