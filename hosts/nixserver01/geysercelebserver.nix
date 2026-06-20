@@ -14,11 +14,11 @@
   services.minecraft-servers = {
     enable = true;
     eula = true;
-    dataDir = "/var/lib/cool-servers";
+    # dataDir = "/var/lib/cool-servers";
 
     servers.celebrationserver = {
       enable = true;
-      package = pkgs.paperServers.paper-26_1_2;
+      package = pkgs.paperServers.paper;
       openFirewall = true;
 
       # whitelist = {
@@ -32,13 +32,10 @@
         simulation-distance = 10;
         white-list = false;
         motd = "Celebration Youth Group Minecraft Server!";
-        online-mode = true;
+        online-mode = false;
         allow-flight = true;
       };
 
-      # files = {
-      #   plugins = ./celebrationserver/plugins;
-      # };
 
     };
   };
